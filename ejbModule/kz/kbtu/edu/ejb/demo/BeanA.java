@@ -7,7 +7,7 @@ import javax.ejb.Stateless;
 /**
  * Session Bean implementation class BeanA
  */
-@Stateless(name = "beanA")
+@Stateless
 @LocalBean
 public class BeanA implements BeanALocal {
 
